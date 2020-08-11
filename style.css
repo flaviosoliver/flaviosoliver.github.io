@@ -1,0 +1,132 @@
+#photo {
+  border-radius: 25%;
+}
+
+.zoom {
+  overflow: hidden;
+}
+
+.zoom img {
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.zoom:hover img {
+  transform: scale(1.1);
+}
+
+.banner-top {
+  top: 0px;
+  left: 0px;
+}
+
+.menu {
+  background-image: url(images/topo2-1-5000x3100.png);
+  background-size: cover;
+  padding: 10% 10%;
+}
+
+.aux {
+  display: table;
+  margin: auto;
+}
+
+.aux a {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.aboutme {
+  filter: grayscale(100%);
+}
+
+.aboutme-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.skill {
+  filter: grayscale(100%);
+}
+
+.skill-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.flag {
+  filter: grayscale(100%);
+}
+
+.flag-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+.star {
+  filter: grayscale(100%);
+}
+
+.star-1:hover {
+  filter: grayscale(0%);
+  transition: 10ms;
+}
+
+body {
+  background-color: rgb(233, 231, 206);
+  margin: 0;
+  padding: 0;
+  font-family: "Exo 2", Candara, Palatino, Ubuntu, Geo, Garamond, -apple-system,
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.name {
+  color: brown;
+  font-size: x-large;
+  text-align: center;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.caption {
+  color: brown;
+}
+
+.subtitle {
+  color: chocolate;
+  text-shadow: beige 0.1em 0.1em 0.2em;
+}
+
+#texto {
+  text-align: justify;
+  color: rgb(19, 11, 1);
+}
+
+.column {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 0px solid #ccc;
+}
+
+.column2 {
+  column-count: 1;
+  column-gap: 30px;
+  column-rule: 10px solid #ccc;
+}
+
+.designer {
+  color: rgb(34, 37, 37);
+  font-size: small;
+  font-style: italic;
+  text-align: right;
+  text-shadow: beige 0.1em 0.1em 0.2em;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline overline;
+  color: rgb(155, 11, 11);
+}
