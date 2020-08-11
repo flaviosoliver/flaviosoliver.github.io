@@ -2,6 +2,7 @@ body {
   background-color: rgb(233, 231, 206);
   font-family: "Exo 2", Candara, Palatino, Ubuntu, Geo, Garamond, -apple-system,
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5em;
   margin: unset;
   padding: 0;
 }
@@ -134,4 +135,8 @@ a:active {
 a:hover {
   color: rgb(155, 11, 11);
   text-decoration: underline overline;
+}
+
+.links {
+  vertical-align: top;
 }
