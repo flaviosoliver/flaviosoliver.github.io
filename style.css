@@ -1,4 +1,4 @@
-#photo {
+.img-responsive {
   border-radius: 25%;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .banner-top {
-  top: 0px;
-  left: 0px;
+  left: 0;
+  top: 0;
 }
 
 .menu {
@@ -74,10 +74,10 @@
 
 body {
   background-color: rgb(233, 231, 206);
-  margin: 0;
-  padding: 0;
   font-family: "Exo 2", Candara, Palatino, Ubuntu, Geo, Garamond, -apple-system,
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;  
 }
 
 .name {
@@ -96,15 +96,15 @@ body {
   text-shadow: beige 0.1em 0.1em 0.2em;
 }
 
-#texto {
-  text-align: justify;
+.texto {
   color: rgb(19, 11, 1);
+  text-align: justify;
 }
 
 .column {
   column-count: 3;
   column-gap: 20px;
-  column-rule: 0px solid #ccc;
+  column-rule: 0 solid #ccc;
 }
 
 .column2 {
@@ -127,6 +127,6 @@ a:active {
   text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline overline;
   color: rgb(155, 11, 11);
+  text-decoration: underline overline;
 }
